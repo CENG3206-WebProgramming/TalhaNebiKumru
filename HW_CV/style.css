@@ -1,11 +1,8 @@
-#profile_image {
+div {
     position: relative;
-}
-
-#profile_image {
     position: absolute;
     margin-top: 140px;
-    margin-right: 140px;
+    margin-right: 150px;
     top: 0px;
     right: 0px;
     border-radius: 50%;
@@ -14,4 +11,39 @@
 dl {
     margin-top: 30px;
     margin-left: 35px;
+}
+
+#about {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 140px;
+}
+
+table {
+    width: 90%;
+}
+
+th,
+td {
+    text-align: left;
+}
+
+.sertifikabtk tr:nth-child(even) {
+    background-color: #D6EEEE;
+    vertical-align: middle;
+}
+
+.sertifikapat tr:nth-child(even) {
+    background-color: #D6EEEE;
+    vertical-align: middle;
+}
+
+.sertifikaglob tr:nth-child(even) {
+    background-color: #D6EEEE;
+    vertical-align: middle;
+}
+
+.kursbtk tr:nth-child(even) {
+    background-color: #D6EEEE;
+    vertical-align: middle;
 }
